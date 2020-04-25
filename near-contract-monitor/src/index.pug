@@ -1,0 +1,122 @@
+doctype html
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/bootstrap/bootstrap-theme.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        .container-fluid
+
+
+            section.py-4
+                .container-fluid
+                    .row
+                        .col-xl-4
+                            h2 NEAR Contract Browser
+                            p Monitor your contract live on NEAR Protocol
+
+                            .table-responsive
+                                table.table
+                                    tbody
+                                        tr
+                                            td HEzgSUW
+                                            td Batch Transaction
+                                            td ✅ 6m ago
+                                        tr
+                                            td GVvfiaG
+                                            td Batch Transaction
+                                            td ✅ 9m ago
+                                        tr
+                                            td HNyQPa2
+                                            td @alice -> addMessage
+                                            td ✅ 18m ago
+                                        tr
+                                            td CZxvmu8.
+                                            td @alice -> addMessage
+                                            td ⛔️20m ago
+                                        tr
+                                            td B5B26bX
+                                            td @bob -> addMessage
+                                            td ✅ 42 ago
+                        .col-xl-5
+                            img.mt-5.img-fluid(src="images/qr-code-lg.png", alt="")
+                            .row.mt-3.flex-row.text-center.text-sm-left
+                                .col-sm-4
+                                    h3 (N) 175.12
+                                    p Account Balance
+                                .col-sm-4
+                                    h3 $ XX.XX
+                                    p USD Equivalent
+                                .col-sm-4
+                                    h3 - (N) 12.32
+                                    p Net Monthly Income
+                        .col-xl-3.mt-5
+                            h3 Storage
+                            p.lead Contract storage and method calls are illustrated based on contract metadata and runtime metrics
+                            .d-flex.text-center
+                                figure.col-6
+                                    a(href="#")
+                                        img.rounded-circle.img-fluid(src="images/doughnut.png", alt="")
+                                    figcaption.mt-3
+                                        a(href="#") Prefix Allocation
+                                figure.col-6
+                                    a(href="#")
+                                        img.rounded-circle.img-fluid(src="images/radar.png", alt="")
+                                    figcaption.mt-3
+                                        a(href="#") Method Calls
+                            p For help with configuring your contract please visit near.help / contracts
+
+            section.py-5
+                .container.text-center
+                    h2.mb-5 Frequently Asked Questions
+                    .accordion.text-left(id="faq-02")
+                        .card.mb-2
+                            .card-header(id="faq-heading1-02")
+                                h5.mb-0
+                                    button.btn.btn-link.btn-block.text-left.d-flex(type="button", data-toggle="collapse", data-target="#faq-collapse1-02", aria-expanded="false", aria-controls="faq-collapse1-02", style="white-space:normal !important; word-wrap: break-word") How is a decentralized network different from the traditional web?
+                                        img.p-1.ml-auto.my-auto(src="placeholder/icons/chevron-circle-down.svg", alt="")
+                            .collapse(id="faq-collapse1-02", aria-labelledby="faq-heading1-02", data-parent="#faq-02")
+                                .card-body.border-bottom  Decentralization is a key aspect of PiperNet. Traditionally, to access data on a website, you needed to connect to a single server containing that data. This method of storing data makes it easy for third parties to get access to it, corrupt it or even delete it. In PiperNet it is securely stored on multiple devices in the network, which makes it harder to hack and interfere with your data.
+                        .card.mb-2
+                            .card-header(id="faq-heading2-02")
+                                h5.mb-0
+                                    button.btn.btn-link.btn-block.text-left.d-flex(type="button", data-toggle="collapse", data-target="#faq-collapse2-02", aria-expanded="false", aria-controls="faq-collapse2-02", style="white-space:normal !important; word-wrap: break-word") Why shouldn't I just store my data on a Hooli Box?
+                                        img.p-1.ml-auto.my-auto(src="placeholder/icons/chevron-circle-down.svg", alt="")
+                            .collapse(id="faq-collapse2-02", aria-labelledby="faq-heading2-02", data-parent="#faq-02")
+                                .card-body.border-bottom  That's just the thing - if you store your data in a single place, like Gavin Belsons' poorly-made server box, your data will very susceptible to hacking. Whereas on PiperNet, your data is safe with many copies to back it up from.
+                        .card.mb-2
+                            .card-header(id="faq-heading3-02")
+                                h5.mb-0
+                                    button.btn.btn-link.btn-block.text-left.d-flex(type="button", data-toggle="collapse", data-target="#faq-collapse3-02", aria-expanded="false", aria-controls="faq-collapse3-02", style="white-space:normal !important; word-wrap: break-word") What makes PiperNet so safe?
+                                        img.p-1.ml-auto.my-auto(src="placeholder/icons/chevron-circle-down.svg", alt="")
+                            .collapse(id="faq-collapse3-02", aria-labelledby="faq-heading3-02", data-parent="#faq-02")
+                                .card-body.border-bottom  Our proprietary middle-out compression algorithm allows data to flow so fast that it can't be hacked! But, in all seriousness, the algorithm helps but it's the public, immutable ledger that makes it secure. This enables PiperNet users to exchange data without risk of it being intercepted by third parties.
+                        .card.mb-2
+                            .card-header(id="faq-heading4-02")
+                                h5.mb-0
+                                    button.btn.btn-link.btn-block.text-left.d-flex(type="button", data-toggle="collapse", data-target="#faq-collapse4-02", aria-expanded="false", aria-controls="faq-collapse4-02", style="white-space:normal !important; word-wrap: break-word") How long does it take to get a company up and running on PiperNet?
+                                        img.p-1.ml-auto.my-auto(src="placeholder/icons/chevron-circle-down.svg", alt="")
+                            .collapse(id="faq-collapse4-02", aria-labelledby="faq-heading4-02", data-parent="#faq-02")
+                                .card-body.border-bottom  Access to the public network is granted within a day, but moving all your data and integrating your existing software depends on how big your company is. Startups can expect to be fully online within a week, enterprises can take up to a month due to large reliance on legacy systems and huge datasets.
+                        .card.mb-2
+                            .card-header(id="faq-heading5-02")
+                                h5.mb-0
+                                    button.btn.btn-link.btn-block.text-left.d-flex(type="button", data-toggle="collapse", data-target="#faq-collapse5-02", aria-expanded="false", aria-controls="faq-collapse5-02", style="white-space:normal !important; word-wrap: break-word") How is a decentralized network different from the traditional web?
+                                        img.p-1.ml-auto.my-auto(src="placeholder/icons/chevron-circle-down.svg", alt="")
+                            .collapse(id="faq-collapse5-02", aria-labelledby="faq-heading5-02", data-parent="#faq-02")
+                                .card-body.border-bottom  Decentralization is a key aspect of PiperNet. Traditionally, to access data on a website, you needed to connect to a single server containing that data. This method of storing data makes it easy for third parties to get access to it, corrupt it or even delete it. In PiperNet it is securely stored on multiple devices in the network, which makes it harder to hack and interfere with your data.
+                        .card.mb-2
+                            .card-header(id="faq-heading6-02")
+                                h5.mb-0
+                                    button.btn.btn-link.btn-block.text-left.d-flex(type="button", data-toggle="collapse", data-target="#faq-collapse6-02", aria-expanded="false", aria-controls="faq-collapse6-02", style="white-space:normal !important; word-wrap: break-word") Why shouldn't I just store my data on a Hooli Box?
+                                        img.p-1.ml-auto.my-auto(src="placeholder/icons/chevron-circle-down.svg", alt="")
+                            .collapse(id="faq-collapse6-02", aria-labelledby="faq-heading6-02", data-parent="#faq-02")
+                                .card-body That's just the thing - if you store your data in a single place, like Gavin Belsons' poorly-made server box, your data will very susceptible to hacking. Whereas on PiperNet, your data is safe with many copies to back it up from.
+
+        script(src="js/jquery/jquery.min.js")
+        script(src="js/popper/popper.min.js")
+        script(src="js/bootstrap/bootstrap.min.js")
