@@ -28,7 +28,7 @@ NEAR Protocol Components
 
 Dependencies
 
-- uses [Bulma CSS]()
+- uses [Bulma CSS](https://bulma.dev)
 
   </td>
 </tr>
@@ -74,7 +74,7 @@ NEAR Protocol Components
 
 Dependencies
 
-- uses [Tailwind CSS]()
+- uses [Tailwind CSS](https://tailwind.build)
 
   </td>
 </tr>
@@ -118,7 +118,7 @@ NEAR Protocol Components
 
 Dependencies
 
-  - uses [Bootstrap CSS]()
+- uses [Bootstrap CSS](https://bootstrapshuffle.com)
 
 <pre>
 near-contract-monitor
