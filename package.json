@@ -1,0 +1,14 @@
+{
+  "name": "workshop--near-hackathon-starter",
+  "version": "0.0.1",
+  "description": "This starter kit includes 3 project templates",
+  "scripts": {
+    "demo": "yarn serve ."
+  },
+  "keywords": [],
+  "author": "Team NEAR <hello@nearprotocol.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
+}
